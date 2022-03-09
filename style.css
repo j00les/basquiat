@@ -9,7 +9,8 @@
 
 nav {
     display: flex;
-    padding: 10px;
+    padding: 20px;
+    align-items: center;
 }
 
 nav div {
@@ -20,22 +21,23 @@ nav div {
     display: flex;
     justify-content: center;
     flex: 1;
-    
+
 }
 
-
 .header {
-    background-color: #1F2937 ;
+    background-color: #1F2937;
     color: white;
+    height: 50vh;
 }
 
 
 .left-side img {
     width: 60px;
     height: auto;
-    border-radius: 30% ;
+    border-radius: 50%;
     color: white;
-    border: solid #E19912;
+
+    ;
     padding: 4px;
 }
 
@@ -44,10 +46,11 @@ ul {
     display: flex;
     padding: 0px;
     justify-content: center;
+    margin-right: 20px;
 }
 
 
-li,a {
+li, a {
     text-decoration: none;
     list-style: none;
     color: #FFFFFF;
@@ -57,3 +60,48 @@ li,a {
 
 
 /* navbar ---------- */
+
+/* header title -------- */
+
+h1 {
+    margin-bottom: 10px;
+}
+
+
+.title-image img {
+   max-width: 500px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: -1px 1px 10px 5px rgba(0, 0, 0, 0.28);
+
+}
+
+.header-title {
+    width: 400px;
+
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    gap: 150px;
+}
+
+.title-button {
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #288AB0;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+/* header title -------- */
