@@ -112,6 +112,8 @@ h1 {
 
 /* header title -------- */
 
+/* card ---------------- */
+
 .card-wrapper h2 {
     margin-bottom: 50px;
 }
@@ -137,5 +139,63 @@ h1 {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
+/* card -------------------- */
+/* quotes */
+.quotes p {
+    width: 600px;
+    margin: 0 auto;
+    font-weight: 200;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    padding: 100px;
+    margin: 70px auto;
+    font-size: 20px;
+    font-style: italic ;
+    line-height: 30px;
+}
+
+.masjon {
+    color: black;
+    display: block;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* quotes */
+
+/* call to action button and button */
+.cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 700px;
+    margin: 0 auto;
+    color: white;
+    background-color: #288AB0;
+}
+
+.cta-button button {
+    border: solid 2px white;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #288AB0;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color: lightgray;
+    margin-top: 80px;
+}
+/* call to action button and button */
 
 
